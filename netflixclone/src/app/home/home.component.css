@@ -72,3 +72,33 @@ body {
   border: 1px solid #939393;
   padding: 10px 35px;
 }
+
+
+@media only screen and (max-width: 768px) {
+  .choose-profile {
+    width: 95%;
+  }
+  .profile-btn {
+    margin-top: 50px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .main-header img {
+    margin-left: 10px;
+  }
+  .title-profile {
+    font-size: 30px;
+  }
+  .choose-profile {
+    width: 100%;
+  }
+  .choose-profile li img {
+    height: inherit;
+  }
+  .choose-profile p, .profile-btn a {
+    font-size: 12px;
+  }
+  
+
+}
