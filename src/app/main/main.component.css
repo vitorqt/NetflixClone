@@ -1,0 +1,39 @@
+.header {
+  background-image: url('../../assets/img/netflixtest.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.container_header {
+  display: flex;
+  justify-content: space-between;
+}
+ul { padding: 0; margin: 0; }
+
+.container_header li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 20px;
+}
+.container_header li a {
+  text-decoration: none;
+  color: #FFF;
+}
+.container_header li a:hover {
+  color: #9E9E9E;
+}
+
+.header_menu ul li img {
+  height: 65px;
+  width: 120px;
+  margin-left: 40px;
+}
+
+.header__options {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 40px;
+}
