@@ -1,5 +1,5 @@
 .header {
-  background-image: url('../../assets/img/netflixtest.png');
+  background-image: url('../../assets/img/header-img.png');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -35,5 +35,52 @@ ul { padding: 0; margin: 0; }
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-right: 40px;
+  margin-right: 60px;
+}
+.header__options li {
+  margin-left: 30px;
+}
+.header__options ul li .profile-img {
+  height: 38px;
+  width: 40px;
+}
+
+.header_buttons {
+  position: absolute;
+  margin-left: 60px;
+  top: 55%;
+  transform: translateY(-50%);
+}
+
+.header_buttons button {
+  margin-left: 20px;
+  padding: 13px 60px;
+  font-size: 1.2vw;
+  min-width: 50px;
+  color: #FFF;
+  background-color: rgba(68, 67, 67, 0.4);
+  border: 0;
+  border-radius: 4px;
+}
+
+.header_restriction {
+  position: absolute;
+  right: 0;
+  bottom: 20%;
+  height: 6vh;
+  width: 10vw;
+  min-width: 100px;
+  background-color: rgba(19, 18, 18, 0.4);
+}
+.header_restriction span {
+  display: block;
+  height: 85%;
+  width: 2.5vw;
+  min-width: 40px;
+  margin: 5px 20px;
+  font-size: 20px;
+  padding: 10px;
+  color: #FFF;
+  border-radius: 3px;
+  background-color: #131111;
 }
